@@ -44,13 +44,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-right:0;
 }
 
-
-/* Sizes */
-
-.bloc-xl{
-	padding:150px 20px;
-}
-
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
 
@@ -136,6 +129,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 
 /* = NavBar
@@ -210,6 +209,24 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 /* Scroll FX */
@@ -272,6 +289,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .illustration-section-title{
 	font-size:55px;
+}
+.img-style{
+	width:420px;
 }
 
 /* = Colour
@@ -552,6 +572,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.text-left{
 	}
 	.text-center{
+	}
+	.img-style{
+		width:341px;
+	}
+	.img-github-lo-style{
+		width:240px;
 	}
 	
 }
